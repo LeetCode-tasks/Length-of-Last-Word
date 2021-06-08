@@ -6,20 +6,20 @@ A word is a maximal substring consisting of non-space characters only.
 
 _Example 1:_
 
-```
+`
 Input: s = "Hello World"
 
 Output: 5
-```
+`
 
 
 _Example 2:_
 
-```
+`
 Input: s = " "
 
 Output: 0
-```
+`
  
 
 _Constraints:_
