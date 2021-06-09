@@ -49,3 +49,18 @@ class Solution {
     }
 }
 ```
+
+# Solution in JavaScript
+```
+var lengthOfLastWord = function(s) {
+    let words = s.split(' ');
+    let lastWord = words[words.length - 1];
+    
+    if (words.length > 1 && lastWord.length === 0) {
+        words.pop();
+        return lengthOfLastWord(words.join(' '));
+    }
+    
+    return lastWord.length;
+};
+```
