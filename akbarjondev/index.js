@@ -1,5 +1,5 @@
-const s = "Hello World"
+const s = "H "
 
-const main = text => text.split(' ')[text.split(' ').length - 1].length
+const main = text => text.trim().split(' ')[text.trim().split(' ').length - 1].length
 
-main(s)
+console.log(main(s))
